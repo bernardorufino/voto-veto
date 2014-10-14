@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/instructions_screen_bg"
+    android:padding="30dp"
+    android:clickable="true"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingBottom="40dp"
+        >
+
+        <TextView
+            android:text="@string/instructions_first_step"
+            android:drawableLeft="@drawable/ic_action_eye_open_white"
+            style="@style/InstructionText"
+            />
+
+        <TextView
+            android:text="@string/instructions_second_step"
+            android:drawableLeft="@drawable/ic_action_wizard_white"
+            style="@style/InstructionText"
+            />
+
+        <TextView
+            android:text="@string/instructions_third_step"
+            android:drawableLeft="@drawable/ic_action_playback_repeat_white"
+            style="@style/InstructionText"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/instructions_dismiss_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/instructions_dismiss_button"
+        />
+
+</RelativeLayout>

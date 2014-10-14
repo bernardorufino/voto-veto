@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="action_bar_height">60dp</dimen>
+    <dimen name="action_bar_candidate_picture">50dp</dimen>
+    <dimen name="action_bar_duel_score_versus_margin">10dp</dimen>
+    <dimen name="splash_score_candidate_picture">100dp</dimen>
+    <dimen name="splash_score_winner_picture">150dp</dimen>
+    <dimen name="shimmer_width">40dp</dimen>
+    <dimen name="action_bar_duel_score_animation_safe_margin">15dp</dimen>
+    <dimen name="proposal_divider_height">30dp</dimen>
+</resources>

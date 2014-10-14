@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--TODO: Englishify-->
+    <string name="app_name">"Voto X Veto "</string>
+    <string name="action_settings">Settings</string>
+    <string name="right_title">Veto</string>
+    <string name="no_connectivity">Sem internet</string>
+    <string name="title">voto x veto</string>
+    <string name="action_bar_duel_versus">X</string>
+    <string name="loading_text">Carregando...</string>
+    <string name="default_theme_text">Presidente</string>
+    <string name="no_more_proposals_toast">Parabéns, acabaram as propostas!</string>
+    <string name="no_more_proposals">Fim</string>
+    <string name="disclaimer_message">Propostas retiradas dos planos\n de governos dos candidatos.</string>
+    <string name="instructions_third_step">Repita!</string>
+    <string name="instructions_second_step">Revele o candidato e aumente sua pontuação</string>
+    <string name="instructions_first_step">Leia as duas propostas e escolha a melhor</string>
+    <string name="instructions_dismiss_button">Entendi</string>
+
+</resources>

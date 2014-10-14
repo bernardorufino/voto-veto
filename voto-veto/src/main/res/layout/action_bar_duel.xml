@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    style="@style/ActionBarStyle"
+    android:clipChildren="false"
+    >
+
+    <com.makeramen.RoundedImageView
+        android:id="@+id/action_bar_duel_first_candidate_image"
+        android:src="@drawable/placeholder"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        style="@style/ActionBarDuelCandidateImage"
+        />
+
+    <com.makeramen.RoundedImageView
+        android:id="@+id/action_bar_duel_second_candidate_image"
+        android:src="@drawable/placeholder"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        style="@style/ActionBarDuelCandidateImage"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:clipChildren="false"
+        >
+
+        <TextView
+            android:id="@+id/action_bar_duel_first_candidate_score"
+            android:layout_marginRight="@dimen/action_bar_duel_score_versus_margin"
+            android:layout_marginLeft="@dimen/action_bar_duel_score_animation_safe_margin"
+            style="@style/ActionBarDuelCandidateScore"
+            />
+
+        <TextView
+            android:id="@+id/action_bar_duel_versus"
+            android:text="@string/action_bar_duel_versus"
+            style="@style/ActionBarDuelCandidateVersus"
+            />
+
+        <TextView
+            android:id="@+id/action_bar_duel_second_candidate_score"
+            android:layout_marginLeft="@dimen/action_bar_duel_score_versus_margin"
+            android:layout_marginRight="@dimen/action_bar_duel_score_animation_safe_margin"
+            style="@style/ActionBarDuelCandidateScore"
+            />
+
+    </LinearLayout>
+
+
+
+    
+</RelativeLayout>

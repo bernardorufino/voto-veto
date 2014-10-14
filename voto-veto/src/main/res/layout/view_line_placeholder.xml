@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/line_placeholder_line"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:clipChildren="false">
+
+        <View
+            android:id="@+id/line_placeholder_shimmer"
+            android:layout_width="@dimen/shimmer_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/line_placeholder_shimmer"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line_placeholder_gap"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0"
+        />
+
+</merge>

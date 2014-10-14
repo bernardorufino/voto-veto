@@ -1,0 +1,152 @@
+<resources>
+
+    <style name="ThemeTitle">
+        <item name="android:background">@drawable/theme_badge</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="MainContainer">
+        <item name="android:background">#FFF5F5F5</item>
+    </style>
+
+    <style name="ProposalText">
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/proposal_text_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="ProposalText.Left">
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <style name="ProposalText.Right">
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <style name="ProposalPlaceholder">
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="LinePlaceholder">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="line_background">@color/line_placeholder_bg</item>
+    </style>
+
+    <style name="LinePlaceholder.Full">
+        <item name="line_width">1</item>
+    </style>
+
+    <style name="LinePlaceholder.Partial">
+        <item name="line_width">0.5</item>
+    </style>
+
+
+    <!-- Action Bar Duel -->
+
+    <style name="ActionBarDuelCandidateImage">
+        <item name="android:layout_width">@dimen/action_bar_candidate_picture</item>
+        <item name="android:layout_height">@dimen/action_bar_candidate_picture</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="corner_radius">30dp</item>
+        <item name="border_width">2dp</item>
+        <item name="border_color">#333333</item>
+        <item name="mutate_background">true</item>
+        <item name="oval">true</item>
+    </style>
+
+    <style name="ActionBarDuelCandidateScore">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#EEEEEE</item>
+    </style>
+
+    <style name="ActionBarDuelCandidateVersus">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <!-- Action Bar -->
+
+    <style name="ActionBarStyle">
+        <item name="android:background">#FF222222</item>
+        <item name="android:layout_height">@dimen/action_bar_height</item>
+    </style>
+
+    <style name="ActionBarTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">-3dp</item>
+    </style>
+
+    <style name="ActionBarLogo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="ActionBarLine">
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+    </style>
+
+
+    <!-- Splash candidate screen -->
+
+    <style name="SplashScoreCandidateImage">
+        <item name="android:layout_width">@dimen/splash_score_candidate_picture</item>
+        <item name="android:layout_height">@dimen/splash_score_candidate_picture</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="corner_radius">30dp</item>
+        <item name="border_width">2dp</item>
+        <item name="mutate_background">true</item>
+        <item name="oval">true</item>
+    </style>
+
+    <style name="SplashScoreCandidateName">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="SplashScoreCandidateImage.First">
+        <item name="border_color">@color/splash_first_candidate_border</item>
+    </style>
+
+    <style name="SplashScoreCandidateImage.Second">
+        <item name="border_color">@color/splash_second_candidate_border</item>
+    </style>
+
+    <!-- Instructions -->
+
+    <style name="InstructionText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">#EEEEEE</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:drawablePadding">27dp</item>
+    </style>
+
+</resources>
